@@ -45,6 +45,7 @@ body {
 .search-bar {
     border: 1px solid black;
     border-right: none;
+    width: 15vw;
     background-color: white;
     padding: 10px;
     position: relative;
@@ -231,4 +232,130 @@ footer li a {
     border-top: none;
     color: white;
     padding: 5px 0;
+}
+
+/* media query begins here */
+
+@media (max-width: 1040px) {
+
+    .nav-bar {
+        display: flex;
+        flex-flow: column wrap;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .nav-bar h1 {
+        text-align: center;
+    }
+
+    .search-btn {
+        padding: 10.6px;
+
+    }
+
+    .search-bar {
+
+        width: 50vw;
+    }
+
+}
+
+@media (max-width: 820px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .fig {
+
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .fig figure {
+        width: 20%;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    .main-section section {
+        width: 100%;
+    }
+
+    .main-section section h3 {
+        text-align: center;
+    }
+
+    .main-section section p {
+        text-align: justify;
+    }
+
+    .foot-contact {
+        font-size: 1.5rem;
+    }
+
+    .foot-about {
+
+        width: 100%;
+        padding-left: 5px;
+        
+    }
+
+}
+
+@media (max-width: 370px) {
+
+    .nav-bar {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-bar h1 {
+        margin-left: 30px;
+    }
+
+    .nav-bar ul {
+        flex-flow: column nowrap;
+    }
+
+    .nav-bar li {
+        margin: 10px 0 0 0;
+    }
+
+    .nav-bar a {
+        padding: 5px 50px;
+    }
+
+    .uploadFile {
+        display: none;
+    }
+    
+    #uploadFile {
+        display: none;
+    }
+
+    .foot-contact {
+        font-size: 1rem;
+    }
+
+    .foot-content {
+        font-size: 0.6rem;
+    }
+
+    .foot-newsletter button {
+        margin-top: 5px;
+        padding: 5px;
+
+    }
+
+    .copyright {
+        font-size: 0.6rem;
+    }
+
 }
