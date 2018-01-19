@@ -80,7 +80,7 @@ body {
     display: block;
 }
 
-.top-sctn {
+.hero {
     text-align: center;
     padding: 80px 0;
     border: 1px solid black;
@@ -88,76 +88,6 @@ body {
     background-color: #d8d8d8;
     
 }
-
-/* --global style end-- */
-
-
-
-.main-content {
-    position: relative;
-    padding: 40px 10px 5px 10px;
-    border: 1px solid black;
-    border-top: none;
-}
-
-.fig {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #f2f2f2;
-    border: 1px solid black;
-    border-top: none;
-    padding: 0 50px;
-}
-
-.fig figure {
-    width: 10%;
-    text-align: center;
-}
-
-.main-content h2 {
-    text-align: center;
-}
-
-.uploadFile {
-    background-color: #f2f2f2;
-    padding: 5px;
-    position: absolute;
-    right: 10px;
-    top: 35px;
-}
-
-#uploadFile {
-    position: absolute;
-    right: 10px;
-    top: 35px;
-    z-index: 5;
-    width: 65px;
-    height: 65px;
-    opacity: 0;
-}
-
-.main-section {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-.main-section section {
-    width: 40%;
-}
-
-.story-link {
-    direction: rtl;
-}
-
-.story-link a {
-    text-decoration: none;
-}
-
-
-/* --main style end-- */
 
 .foot-contact {
     text-align: center;
@@ -234,8 +164,6 @@ footer li a {
     padding: 5px 0;
 }
 
-/* media query begins here */
-
 @media (max-width: 1040px) {
 
     .nav-bar {
@@ -269,32 +197,6 @@ footer li a {
 }
 
 @media (max-width: 570px) {
-
-    .fig {
-
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .fig figure {
-        width: 20%;
-    }
-
-    .main-section {
-        flex-direction: column;
-    }
-
-    .main-section section {
-        width: 100%;
-    }
-
-    .main-section section h3 {
-        text-align: center;
-    }
-
-    .main-section section p {
-        text-align: justify;
-    }
 
     .foot-contact {
         font-size: 1.5rem;
@@ -330,14 +232,6 @@ footer li a {
 
     .nav-bar a {
         padding: 5px 50px;
-    }
-
-    .uploadFile {
-        display: none;
-    }
-    
-    #uploadFile {
-        display: none;
     }
 
     .foot-contact {
