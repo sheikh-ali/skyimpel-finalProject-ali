@@ -89,6 +89,10 @@ body {
     
 }
 
+.fig figure img {
+    width: 100%;
+}
+
 .foot-contact {
     text-align: center;
     background-color: #f2f2f2;
