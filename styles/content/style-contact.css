@@ -1,0 +1,64 @@
+
+.main-content {
+    position: relative;
+    padding: 40px 10px 5px 10px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+
+.uploadFile {
+    background-color: #f2f2f2;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+}
+
+#uploadFile {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    z-index: 5;
+    width: 65px;
+    height: 65px;
+    opacity: 0;
+}
+
+.response {
+    border: darkolivegreen solid 1px;
+    background-color: #d7e3bf;
+    border-radius: 10px;
+    margin: 20px 0 0 20px;
+    padding: 25px;
+    width: 80%
+}
+
+.inputField {
+    padding: 10px 30px 10px 5px;
+    width: 50%;
+}
+
+textarea {
+    width: 90%;
+}
+
+.send-btn {
+    padding: 10px 40px;
+    float: right;
+    margin-right: 9%;
+}
+
+@media (max-width: 370px) {
+
+
+    .uploadFile {
+        display: none;
+    }
+    
+    #uploadFile {
+        display: none;
+    }
+
+
+}
