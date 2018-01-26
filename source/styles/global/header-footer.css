@@ -57,8 +57,9 @@ body {
     font-size: 0;
     background-color: white;
     padding: 11px;
+    float: right;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .nav-bar ul {
@@ -168,8 +169,13 @@ footer li a {
     padding: 5px 0;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1164px) {
 
+    .container {
+        width: 80%;
+    
+    }
+    
     .nav-bar {
         display: flex;
         flex-flow: column wrap;
