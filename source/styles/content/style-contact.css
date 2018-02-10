@@ -7,27 +7,15 @@
 }
 
 
-.uploadFile {
-    background-color: #f2f2f2;
-    padding: 5px;
-    position: absolute;
-    right: 10px;
-    top: 35px;
-}
-
-#uploadFile {
-    position: absolute;
-    right: 10px;
-    top: 35px;
-    z-index: 5;
-    width: 65px;
-    height: 65px;
-    opacity: 0;
+.uploadFile img{
+    position: sticky;
+    float: right;
+    top: 10px;
 }
 
 .response {
-    border: darkolivegreen solid 1px;
-    background-color: #d7e3bf;
+    border: #c7d4dd  solid 1px;
+    background-color: #dae9f4;
     border-radius: 10px;
     margin: 20px 0 0 20px;
     padding: 25px;
@@ -47,18 +35,4 @@ textarea {
     padding: 10px 40px;
     float: right;
     margin-right: 9.8%;
-}
-
-@media (max-width: 370px) {
-
-
-    .uploadFile {
-        display: none;
-    }
-    
-    #uploadFile {
-        display: none;
-    }
-
-
 }
